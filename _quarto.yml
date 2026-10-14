@@ -1,0 +1,19 @@
+project:
+  type: manuscript
+  output-dir: _manuscript
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    comments:
+      hypothesis: false
+  docx:
+    output-file: manuscript.docx
+
+execute:
+  freeze: true

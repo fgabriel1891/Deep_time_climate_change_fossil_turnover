@@ -1,0 +1,74 @@
+INLINE CITATIONS EXTRACTED FROM manuscript/index.qmd
+
+Unique author-year citations, alphabetized. Repeated citations are listed once.
+Punctuation and spacing are normalized; author spellings are retained.
+This is an extraction of citations, not a verified bibliography.
+
+Alroy (1996)
+Alroy et al. (2000)
+Badgley et al. (2014)
+Baselga et al. (2013)
+Blanco et al. (2021)
+Boucot et al. (2013)
+Costeur et al. (2004)
+DiMichele et al. (2004)
+Dynesius & Jansson (2000)
+Eronen et al. (2012)
+Erwin (2009)
+Ferrier & Guisan (2006)
+Fick & Hijmans (2017)
+Finnegan et al. (2015)
+Fitzpatrick et al. (2021)
+Fitzpatrick et al. (2025)
+Forster et al. (2026)
+Fortelius et al. (2014)
+Frieler et al. (2025)
+Galvan et al. (2025)
+Gibert et al. (2022)
+Guillot et al. (2013)
+Gunnell et al. (1995)
+Hagen et al. (2019)
+Hastie T (1992)
+Holt et al. (2013)
+Huang et al. (2022)
+Jablonski & Shubin (2015)
+Jabot et al. (2020)
+Jackson & Blois (2015)
+Jones et al. (2023)
+Kennett et al. (1995)
+Kocsis et al. (2021)
+Liow & Finarelli (2014)
+Manion et al. (2017)
+Mazel et al. (2017)
+Mottl et al. (2021)
+Phipps (2022)
+Royer et al. (2004)
+Scotese & Wright (2018)
+Song et al. (2021)
+Stivrins et al. (2016)
+Strömberg (2005)
+van Dam (2006)
+Vrba (1992)
+Yuan et al. (2026)
+Zachos et al. (2001)
+
+INCOMPLETE CITATIONS / PLACEHOLDERS
+
+Briega-Alvarez et al. [year missing]
+  Introduction: "(Kocsis et al., 2021; Briega-Alvarez et al. )"
+
+van Dam et al. [year missing]
+  Introduction: "(van Dam et al.)"
+  Kept separate from van Dam (2006); authorship differs and identity is unverified.
+
+REF [author and year missing]
+  Fossil data methods: genus-level aggregation to reduce sampling-completeness biases.
+
+EXTRACTION NOTES
+
+- "Fitzpatrick et al., 2025; 2021" is expanded into two author-year entries.
+- Narrative citations (e.g. Alroy (1996), Huang et al. (2022)) are included.
+- Figure cross-references, geological ages, numerical settings, and bibliography
+  filenames are excluded.
+- 47 unique author-year citations, two author citations without years, and one
+  generic reference placeholder were identified.

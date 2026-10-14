@@ -1,0 +1,102 @@
+/*-- scss:defaults --*/
+
+// Theme colors
+$link-color: #2C7FB8;
+$body-bg: #FAFAFA;
+$body-color: #222;
+
+/*-- scss:rules --*/
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: $body-bg;
+}
+
+.quarto-title .title {
+  color: #FAFAFA;
+}
+
+/* Headings --------------------------------------------------------------- */
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #3E4B8E;
+}
+
+h2 {
+  color: #3E4B8E;
+}
+
+h3 {
+  color: #3E4B8E;
+}
+
+/* Title banner ----------------------------------------------------------- */
+
+.quarto-title-banner {
+  background-color: #2C3E50;
+  color: #D9D9D9;
+}
+
+/* Inline citations ------------------------------------------------------- */
+
+a[role="doc-biblioref"] {
+  color: #003366;
+}
+
+a[role="doc-noteref"] {
+  color: #2C7FB8;
+}
+
+/* Tables ----------------------------------------------------------------- */
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #1B365D;
+  color: white;
+}
+
+td {
+  padding: 6px;
+}
+
+/* Figure captions -------------------------------------------------------- */
+
+.figure-caption {
+  color: #666666;
+  font-style: italic;
+}
+
+/* Callouts --------------------------------------------------------------- */
+
+.callout-note {
+  border-left: 5px solid #2C7FB8;
+}
+
+/* Table of contents ------------------------------------------------------ */
+
+#TOC {
+  background-color: #F8F8F8;
+}
+
+#TOC a {
+  color: #1B365D;
+}
+
+/* Bibliography ----------------------------------------------------------- */
+
+.csl-entry {
+  margin-bottom: 1em;
+}
+
+.csl-entry a {
+  color: #2C7FB8;
+}
