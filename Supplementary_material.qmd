@@ -1,0 +1,92 @@
+---
+title: "Climate change shape the deep-time assembly of biological diversity"
+subtitle: "Supplementary material"
+date: last-modified 
+format: html
+filters:
+  - panel-accordion
+---
+
+## Supplementary figures
+
+### Figure S1: Uber hexagonal hierarchical spatial index
+
+![**Uber's hierarchical spatial framework used to aggregate fossil and paleoclimatic data.** Illustration of the hexagonal spatial indexing system used to partition the Earth's surface into discrete equal-area spatial cells. The hierarchical structure provides a consistent spatial framework for assigning fossil occurrences and corresponding paleoclimatic conditions to geographic regions and for evaluating analyses across different spatial resolutions.](images/UberH3_grids.webp){fig-align="center"}
+
+### Figure S2: Spatial bins at H0-3 resolutions
+
+![**Spatial distribution of mammalian genus richness across H3 spatial resolutions in Europe and North America.** Fossil occurrences were aggregated into H3 cells at progressively coarser spatial resolutions (h3–h0) for Europe (A, C, E, G) and North America (B, D, F, H). Cell color represents the total number of mammalian genera recorded within each spatial cell across the Neogene, with warmer colors indicating greater genus richness. Progressively coarser resolutions combine fossil occurrences across larger geographic areas, illustrating the spatial aggregation used to evaluate the sensitivity of turnover patterns to spatial grain.](images/genus_richness_h0_h3.png)
+
+### Figure S3: Temporal distribution of fossil age estimates
+
+![**Mammalian genus richness through the Neogene across spatial resolutions in Europe and North America.** Boxplots show the distribution of genus richness among occupied H3 cells within 1-Myr temporal intervals for Europe (left) and North America (right), across progressively finer spatial resolutions from h0 to h3. Boxes represent the interquartile range, horizontal lines indicate medians, whiskers extend to 1.5 times the interquartile range, and points represent observations beyond the whiskers.](images/all_resolutions_per_assemblage-01.png){fig-align="center"}
+
+### Figure S4: Simpson dissimilarity matrix
+
+![**Pairwise compositional turnover among Neogene mammal assemblages at H3 resolution.** Simpson dissimilarity matrices for Europe (A) and North America (B). Rows and columns represent assemblages defined by spatial hexagons and rounded 1-Myr age bins, ordered from oldest to youngest. Colours indicate genus-level turnover, ranging from 0 (no replacement component) to 1 (no shared genera). White lines separate age bins; axis labels indicate ages in Ma. The diagonal represents each assemblage compared with itself](images/simpson_dissimilarity_matrix_h3_all.png){fig-align="center"}
+
+### Figure S5: Conceptual GDM spline interpretation
+
+![**Conceptual representation of generalized dissimilarity modelling (GDM).** GDM relates observed compositional dissimilarity between pairs of assemblages to environmental and geographic differences through nonlinear I-spline transformations of predictor variables. The absolute differences in transformed predictor values between assemblages i and j are summed with a model intercept to estimate ecological distance (η). A negative exponential link function then relates ecological distance to predicted compositional dissimilarity, allowing turnover to increase nonlinearly and approach saturation. Reproduced from Figure 2 of Mokany et al. (2022), Global Ecology and Biogeography, doi:10.1111/geb.13459.](images/gdm_conceptual.jpg){fig-align="center"}
+
+### Figure S6: Lineage turnover across the Neogene
+
+![**Temporal distribution of mammal fossil occurrences by family in Europe and North America.** Boxplots summarize occurrence ages, calculated as the midpoint between minimum and maximum age estimates. Boxes represent the interquartile range, central lines indicate medians, and whiskers extend to the most extreme observations within 1.5 interquartile ranges; outliers are omitted. Families are grouped by trophic guild and ordered by median age within each continent. Colours distinguish herbivores, omnivores, and carnivores; horizontal lines separate guilds. Ages decrease from left to right. These distributions describe sampled occurrences rather than complete evolutionary durations](images/genus_boxplot.png)
+
+### Figure S7: NDMS across trophic guilds
+
+![**Compositional variation among Neogene mammal assemblages across continents and trophic guilds**. Non-metric multidimensional scaling (NMDS) ordinations based on pairwise Simpson dissimilarity for all mammals, herbivores, and carnivores in North America and Europe at H3 resolution 3. Each point represents an assemblage defined by a spatial hexagon and a rounded 1-Myr age bin, containing at least three genera. Colours indicate geological age (Ma). Distances between points approximate differences in genus composition. Ordinations were fitted independently for each continent and guild; axis orientations and scales are therefore not directly comparable across panels.](images/turnover_mds_all.png){fig-align="center"}
+
+### Figure S8: GDM splines for spatial and temporal predictors
+
+![**Geographic and temporal associations with Neogene mammal compositional turnover.** Fitted GDM I-splines for geographic distance (top row) and assemblage age (bottom row) in Europe (left) and North America (right), shown separately for all mammals, herbivores, and carnivores. Models use H3 resolution 3 and climate reconstructions smoothed with six degrees of freedom and cubic B-splines. Curve height represents cumulative contribution on the GDM ecological-distance scale; steeper sections indicate greater compositional differentiation per unit predictor change. For the age predictor, pairwise contributions depend on differences between transformed assemblage ages, rather than temporal separation alone](images/multipanel_non-climate_splines_gam_6_3_h3-01.png){fig-align="center"}
+
+### Figure S9: Splines across model configurations with geography effect
+
+![**Sensitivity of climatic associations with mammal turnover, including geographic distance.** GDM I-splines for mean temperature (top), temperature-change rate (middle), and climatic instability (bottom) in Europe (left) and North America (right), fitted to all-mammal assemblages with geographic distance included as a predictor. Colours distinguish H3 spatial resolutions, and thin curves represent alternative climate-smoothing settings. The thick curve highlights the reference model (h3; climate-smoothing df = 6, degree = 3). Negative temperature-change rates indicate cooling and positive rates warming. Curve heights express cumulative contributions on the GDM ecological-distance scale. Variation among curves represents sensitivity to analytical settings, not statistical confidence intervals. ](images/all_splines_all_geoT.png){fig-align="center"}
+
+### Figure S10: Splines across model configurations without geography effect
+
+![**Sensitivity of climatic associations with mammal turnover, excluding geographic distance.** GDM I-splines for mean temperature (top), temperature-change rate (middle), and climatic instability (bottom) in Europe (left) and North America (right), fitted to all-mammal assemblages. Colours distinguish H3 spatial resolutions, and thin curves represent alternative climate-smoothing settings. The thick curve highlights the reference model (h3; climate-smoothing df = 6, degree = 3). Negative temperature-change rates indicate cooling and positive rates warming. Curve heights express cumulative contributions on the GDM ecological-distance scale. Variation among curves represents sensitivity to analytical settings, not statistical confidence intervals.](images/all_splines_all_geoF.png){fig-align="center"}
+
+### Figure S11: Continental differences in explained deviance 
+
+![**Variation in GDM explanatory power across continents and model configurations.** Percentage of deviance explained by models fitted with geographic distance included (A) or excluded (B) for Europe and North America. Points represent individual model fits across trophic groups, with colours identifying climate-smoothing settings and shapes indicating H3 spatial resolutions. Boxplots summarize the median and interquartile range across configurations; whiskers extend to observations within 1.5 interquartile ranges. Values describe in-sample model fit, not independently validated predictive performance.](images/dev_explained_geo_on_off.png){fig-align="center"}
+
+### Figure S12: The effect of geography in explained deviance
+
+![**Relationship between assemblage sample size and GDM explanatory power.** Percentage of deviance explained plotted against the number of fossil assemblages included in each model as a proxy for spatial resolution of analysis. Points represent model configurations across continents, trophic groups, and H3 resolutions; colours and shapes identify climate-smoothing settings. Dark and light grey lines show fitted linear relationships for models excluding and including geographic distance, respectively. Points are jittered to reduce overlap.](images/deviance_relationship.png){fig-align="center"}
+
+### Figure S13: Taxonomic ratios across time
+
+![**Temporal variation in recorded mammal richness across trophic guilds**. Genus richness (top), named-species richness (middle), and mean named species per genus (bottom) for herbivores and carnivores in Europe (left) and North America (right). Fossil occurrences were assigned to 1-Myr bins using rounded midpoint ages. Richness counts distinct taxa within each continent, guild, and time bin; species-per-genus ratios include only genera represented by named species. Colours distinguish herbivores (green) and carnivores (orange). Lines connect observed values, with gaps indicating unavailable estimates. These unstandardized richness patterns describe the sampled fossil record and do not directly estimate diversification rates.](images/genus_species_richness_by_time.png){fig-align="center"}
+
+## Supplementary tables
+
+### Table S1: Summary of fossil records
+
+Numbers of fossil occurrences, localities, and genera, including genus counts by trophic guild, mean genus richness per locality (± SD), and occurrence midpoint-age ranges. Summaries describe the filtered fossil dataset before excluding assemblages with fewer than three genera; richness is pooled across time.
+
+| Metric                               |      Europe | North America |
+|--------------------------------------|------------:|--------------:|
+| *Fossil occurrence records*          |       9,295 |         4,691 |
+| *Fossil localities*                  |       1,599 |           509 |
+| *Recorded genera*                    |         456 |           312 |
+| *Herbivore genera*                   |         279 |           185 |
+| *Carnivore genera*                   |         157 |           127 |
+| *Omnivore genera*                    |          20 |             0 |
+| *Genera per locality, mean ± SD*     | 5.48 ± 6.83 |   8.36 ± 9.18 |
+| *Occurrence midpoint-age range (Ma)* |  2.00–21.25 |    2.20–21.25 |
+
+### Table S2: Summary of GDM results
+
+Reference models use H3 resolution 3 and climate reconstructions smoothed with cubic B-splines (df = 6). Assemblage and pair counts describe the data retained for model fitting. Deviance explained is reported with geographic distance included and excluded, alongside their difference in percentage points. Values represent in-sample explanatory performance rather than cross-validated predictive accuracy.
+
+| Continent | Trophic group | Assemblages | Assemblage pairs | Deviance explained, geo = TRUE (%) | Deviance explained, geo = FALSE (%) | Difference (percentage points) |
+|-----------|-----------|----------:|----------:|----------:|----------:|----------:|
+| Europe | All mammals | 398 | 79,003 | 52.23 | 50.08 | 2.14 |
+| Europe | Herbivores | 372 | 69,006 | 50.32 | 47.90 | 2.42 |
+| Europe | Carnivores | 182 | 16,471 | 54.15 | 53.45 | 0.70 |
+| North America | All mammals | 184 | 16,836 | 56.23 | 55.44 | 0.79 |
+| North America | Herbivores | 173 | 14,878 | 53.28 | 52.31 | 0.97 |
+| North America | Carnivores | 103 | 5,253 | 52.17 | 52.11 | 0.06 |
